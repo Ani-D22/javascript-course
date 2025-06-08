@@ -16,7 +16,7 @@ var accountPassword = "12345";      //no scope limit like global in java
 accountCity = "Mumbai";     //internally behaves like a var
 let accountState;       //undefined variable
 
-// "use strict"; //implements strict mode but only after this line
+// "use strict"; //implements strict mode but only after this line | Use all JS code as newer version
 /**
   * Prefer not to use var
   * because of issue in block scope and functional scope.
