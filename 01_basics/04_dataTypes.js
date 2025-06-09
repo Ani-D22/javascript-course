@@ -1,5 +1,5 @@
 /**
- * # Primitive Data Types:-
+ * # PRIMITIVE DATA TYPES :-
  * 7 Types: String, Number, Boolean, null, undefined, Symbol, BigInt;
  */
 
@@ -19,7 +19,7 @@ console.log(id === anotherId);
 console.log(typeof bigNumber)
 
 /**
- * # Reference Data Types | Non-Primitive Data Types:-
+ * # REFERENCE DATA TYPES | NON-PRIMITIVE DATA TYPES :-
  * Array, Object, Function;
  */
 
@@ -37,3 +37,14 @@ const myFunction = function(){
     console('Hello World')
 }
 console.log(typeof myFunction)      //This is called as a funtion-object
+
+
+
+// ========================================================================
+
+/**
+ * MEMORY MANAGEMENT IN JS :-
+ * 
+ * 1. Stack:    Used in Primitive Data Types        :       actual copy of values is used 
+ * 2. Heap:     Used in Non-Primitive Data Types    :       reference of object is used
+ */
