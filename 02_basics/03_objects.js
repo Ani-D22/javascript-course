@@ -54,3 +54,32 @@ console.log(jsUser.greeting());
 
 console.log(jsUser.greeting2);
 console.log(jsUser.greeting2());
+
+const course = {
+    courseName: "javascript",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+// Destructuring of an object
+const {courseInstructor : ci} = course;
+
+console.log(ci);
+
+
+
+
+// JSON
+// {
+//     "name": "Hitesh",
+//     "courseName": "Javascript",
+//     "price": "999"
+// }
+
+[
+    {},
+    {},
+    {}
+]
